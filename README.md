@@ -37,7 +37,7 @@ python train.py "DirectoryPathContainingTrainingandValidationImages" --save_dir 
       d. cat_to_name i.e. the complete path of the file containing category to name mapping (optional argument)
       e. gpu - If this argument is passed, the model will make the prediction with gpu enabled (optional argument) 
       
-  #### Example command for running train.py:-
+  #### Example command for running predict.py:-
 ```bash
 python predict.py "CompletePathOfTheTestImage" "CompletePathForModelCheckPoint"
 ``` 
@@ -47,7 +47,7 @@ Or,
 python predict.py "CompletePathOfTheTestImage" "CompletePathForModelCheckPoint" --top_k 5 --cat_to_name "CompletePathOfTheJsonFileContainingCategoryToNameMapping" --gpu
 ``` 
 
-### Steps to Run the train.py file:- 
+### Steps to Run the files:- 
 1. Clone the repository in your local machine. The url is:- https://github.com/Soumya-Gupta0310/ImageClassificationWithPyTorch.git
 2. Open the Anaconda prompt
 3. Run the train.py or the predict.py file as required. 
